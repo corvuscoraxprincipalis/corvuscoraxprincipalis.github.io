@@ -57,11 +57,11 @@
           button1.addEventListener("click", function(evt){
             console.log("button clicked")
             if(Video_1.muted==true){
-              button1.innerHTML="Pause";
+              button1.innerHTML="Pause1";
               Video_1.muted=false;
               Video_1.play();
             }else{
-              button1.innerHTML="Play";
+              button1.innerHTML="Play1";
               Video_1.muted=true;
               Video_1.pause();
             }
@@ -113,8 +113,8 @@
   <div style='position: absolute; bottom: 10px; right: 30px; width:100%; text-align: center; z-index: 1;'>
     <button id="mutebutton" style='position: absolute; bottom: 10px' hidden>Play</button>
   </div>
-  <div style='position: absolute; bottom: 10px; right: 30px; width:100%; text-align: center; z-index: 1;'>
-    <button id="mutebutton1" style='position: relative; bottom: 10px' hidden>Play1</button>
+  <div style='position: absolute; bottom: 10px; right: 60px; width:100%; text-align: center; z-index: 1;'>
+    <button id="mutebutton1" style='position: absolute; bottom: 10px' hidden>Play1</button>
   </div>
   <div style='position: absolute; bottom: 5px; left: 30px; width:100%; text-align: right; z-index: 1;'>
     <input type="image" id="fullscreen" src="fullscreen.png" style='position: absolute; bottom: 0px; right: 35px;'></input>
